@@ -20,7 +20,7 @@ class Solver:
         else:
             self.browser = await self.playwright.firefox.launch(
                 headless=self.headless,
-#                devtools=False,
+                devtools=False,
 #                args=["--no-sandbox"],
             )
 
